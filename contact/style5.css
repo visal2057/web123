@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('../sources/anime1234.avif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin-top: 10px;
+    margin-left: 10px;
+;}
+
+.navbar ul li a  {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: black;
+}
+button{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 8px 10px;
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.navbar ul li a:hover, button:hover {
+    background-color: #ff4500; /* Orange hover effect */
+}
+
+/* Footer Styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Anime Grid */
+.anime-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.anime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: black;
+}
+
+/* Improved Hover Animation */
+.mid2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+.mid21{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.anime-grid:hover, .anime:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+/* Fix margin issues */
+.margin, .margin1{
+    margin: 0;
+}
+.mid1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+}
+.mid1 p{
+    margin: 0px;
+    font-size: 20px;
+}
+.top{
+    height:150px;
+    width:100%;
+    background-color: rgba(255, 255, 255, 0.8); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    color: brown;
+    font-size: 50px;
+    margin: 0px;
+}
+.margin1{
+    background-color: black;
+    color: aliceblue;
+}
+.anime-grid > img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+    
+
